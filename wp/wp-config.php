@@ -26,7 +26,7 @@ define( 'DB_NAME', 'kysloving' );
 define( 'DB_USER', 'kysloving' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'rlddytpq79' );
+define( 'DB_PASSWORD', 'Rlddytpq79' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
