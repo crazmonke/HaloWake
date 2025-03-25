@@ -1,5 +1,5 @@
-# Translation of WordPress - 6.6.x - Development - Administration - Network Admin in Korean
-# This file is distributed under the same license as the WordPress - 6.6.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.7.x - Development - Administration - Network Admin in Korean
+# This file is distributed under the same license as the WordPress - 6.7.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2024-08-26 08:48:33+0000\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/4.0.1\n"
 "Language: ko_KR\n"
-"Project-Id-Version: WordPress - 6.6.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.7.x - Development - Administration - Network Admin\n"
 
 #: wp-admin/network/upgrade.php:32
 msgid "<a href=\"https://developer.wordpress.org/advanced-administration/multisite/admin/#network-admin-updates-screen\">Documentation on Upgrade Network</a>"
@@ -43,7 +43,7 @@ msgstr "<a href=\"https://developer.wordpress.org/advanced-administration/multis
 msgid "https://developer.wordpress.org/advanced-administration/server/web-server/nginx/"
 msgstr "https://developer.wordpress.org/advanced-administration/server/web-server/nginx/"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:759
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:761
 msgctxt "site"
 msgid "Activate"
 msgstr "활성화"
@@ -106,12 +106,12 @@ msgid "You should back up your existing %1$s and %2$s files."
 msgstr "기존의 %1$s 및 %2$s 파일을 백업 해야합니다."
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:735
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:738
 msgid "Visit theme site for %s"
 msgstr "%s의 테마 사이트 방문"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:748
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:751
 msgid "Child theme of %s"
 msgstr "%s의 자식 테마"
 
@@ -201,7 +201,7 @@ msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] "사용할 수 있는 업데이트 <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:650
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:652
 msgid "Main"
 msgstr "메인"
 
@@ -239,7 +239,7 @@ msgstr "하위 도메인 설치하기"
 msgid "Sub-directory Installation"
 msgstr "하위 디렉터리 설치하기"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:941
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:944
 msgid "Active Child Theme"
 msgstr "자식 테마 활성화하기"
 
@@ -381,36 +381,36 @@ msgctxt "user"
 msgid "Mark as spam"
 msgstr "스팸으로 표시하기"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:741
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:744
 msgid "Visit Theme Site"
 msgstr "홈페이지 방문하기"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:704
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:707
 msgid "Broken Theme:"
 msgstr "깨진 테마:"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:610
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:613
 msgid "Network Disable %s"
 msgstr "%s 네트워크 활성 해제하기"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:607
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:610
 msgid "Disable %s"
 msgstr "%s 비활성화"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:584
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:587
 msgid "Network Enable %s"
 msgstr "%s 네트워크 활성화하기"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:581
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:584
 msgid "Enable %s"
 msgstr "%s 활성화하기"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:472
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:617
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:620
 msgid "Network Disable"
 msgstr "네트워크 비활성화"
 
@@ -446,12 +446,12 @@ msgstr[0] "모두 <span class=\"count\">(%s)</span>"
 msgid "No themes found."
 msgstr "테마를 찾을 수 없습니다."
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:794
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:796
 msgctxt "verb; site"
 msgid "Archive"
 msgstr "보관"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:783
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:785
 msgid "Unarchive"
 msgstr "보관 해제"
 
@@ -477,7 +477,7 @@ msgstr "등록됨"
 msgid "Last Updated"
 msgstr "최근 업데이트"
 
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:807
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:809
 msgctxt "site"
 msgid "Not Spam"
 msgstr "스팸이 아닙니다"
@@ -502,7 +502,7 @@ msgid "Deleted"
 msgstr "지웠습니다"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:39
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:818
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:820
 #: wp-admin/network/site-info.php:202
 msgctxt "site"
 msgid "Spam"

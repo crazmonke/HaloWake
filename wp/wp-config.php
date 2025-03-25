@@ -32,7 +32,7 @@ define( 'DB_PASSWORD', 'Rkddytpq79' );
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '5?nAq` Oyi$)(?z:j=*e94{=!qQHW:}c&aYmBbSZ,{Z?ITXYyoee&pmlG#VDaimx' );
-define( 'SECURE_AUTH_KEY',  '(s|Z|C1itSps<*wi^RWz]$Z&OtF=])}CufFCIq-qmEO`|iT: *?LYbPs^iXPSE_<' );
-define( 'LOGGED_IN_KEY',    'Rx*^D_x%P,Tr#f5|;8aC1]c2&,!xRMEe0yU{bE+zHUIiA@,_~GT:A#7]&#niB*vh' );
-define( 'NONCE_KEY',        '1t^w}T<_pJBvcNY?Z$Tj$nIeB~f8G!l$^U?bWl,<4RY+wk%[_y,1p=!^Ub( iV>5' );
-define( 'AUTH_SALT',        'ZqhWyX]],@lmY`U[|_et)c5YI^4rR4vhNT2gWVSgUpk>QLFZFg.94`5IKy/7R{s2' );
-define( 'SECURE_AUTH_SALT', 'yZWD=c-/2A7Bo`i]X7%J[lM>X?Sfy.>*<&sNcz0g2~&=TD~kceaG|)E#bE0?d,<|' );
-define( 'LOGGED_IN_SALT',   '-<^@Mf`m-7C0ChQU+em!3H^N<U^Q0pWgDIt`LA:Ykp#jeHfM7<wkP`9%quJn}I(0' );
-define( 'NONCE_SALT',       'pgU<O4*0SJV$grA^u},G3vJsLXIh2!<G3)-F`=0Dst-4!81-UMjKADKgHlz8$nSO' );
+define( 'AUTH_KEY',         'put your unique phrase here' );
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+define( 'NONCE_SALT',       'put your unique phrase here' );
 
 /**#@-*/
 
@@ -64,6 +64,12 @@ define( 'NONCE_SALT',       'pgU<O4*0SJV$grA^u},G3vJsLXIh2!<G3)-F`=0Dst-4!81-UMj
  *
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
+ *
+ * At the installation time, database tables are created with the specified prefix.
+ * Changing this value after WordPress is installed will make your site think
+ * it has not been installed.
+ *
+ * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
 $table_prefix = 'wp_';
 

